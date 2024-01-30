@@ -1,0 +1,40 @@
+.holder{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    border: 3px solid black;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    overflow: hidden;
+}
+
+.item{
+    flex-basis: 200px;
+    font-size: 30px;
+    padding: 30px 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+.item:nth-child(1){
+    background-color: red;
+    flex-basis: 50%;
+    order: 1;
+}
+.item:nth-child(2){
+    background-color: royalblue;
+    order: 4;
+}
+.item:nth-child(3){
+    background-color:blueviolet;
+    order: 3;
+}
+.item:nth-child(4){
+    background-color: green;
+    order: 5;
+}
+.item:nth-child(5){
+    background-color: orange;
+    flex-basis: 50%;
+    order: 2;
+}
